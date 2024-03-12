@@ -102,10 +102,7 @@ code {
 @media (max-aspect-ratio: 16/9) {
   .video {
     width: auto;
-    height: auto;
-  }
-  .highlight{
-    color: black;
+    height: 100%;
   }
 }
 
