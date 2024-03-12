@@ -1,0 +1,87 @@
+/* Making navbar responsive */
+.navbar {
+  color: #fff;
+  padding: 10px 5%;
+  background: #242322;
+  width: 100%;
+}
+
+/* Making container responsive */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+/* Making logo responsive */
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3vw;
+}
+
+/* Making nav menu responsive */
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+  margin-right: 0;
+}
+
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+/* Adding hover effect for better usability */
+.nav-menu li a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .nav-menu li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+.marg{
+  margin-top: 250px;
+}
+
+
+@media (max-width: 768px) {
+  .marg {
+    margin-top: auto; /* ya phir jo bhi value aap chahte hain */
+ 
+  }
+}
+.absolute-content {
+  overflow-y: auto; /* scrollbar ko auto show karne ke liye */
+}

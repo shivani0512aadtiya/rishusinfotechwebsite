@@ -1,0 +1,100 @@
+.technology-img {
+  max-width: 100%; /* Adjusted width to be responsive */
+  height: auto; /* Ensuring aspect ratio is maintained */
+}
+
+.boxservices {
+  flex: 1; /* This ensures each box takes up equal space */
+  text-align: center; /* Center align text */
+  margin: 0 10px; /* Adjust margin to create space between boxes */
+}
+
+.ourservices {
+  background: rgba(230, 223, 223, 0.5);
+  padding: 5%; /* Adjusted padding for responsiveness */
+  min-height: 100vh; /* Set minimum height to ensure content visibility */
+}
+
+.serviceb {
+  width: 25%;
+  height: auto; /* Allowing height to adjust based on content */
+  font-size: 3vw; /* Adjusted font size for responsiveness */
+  text-align: center;
+  margin-right: 5%; /* Adjusted margin for responsiveness */
+}
+
+.boxAboutServices {
+  width: 90%; /* Adjusted width for responsiveness */
+  max-width: 420px;
+  height: auto; /* Allowing height to adjust based on content */
+  background-color: #e9e9ef;
+  margin-right: 5%; /* Adjusted margin for responsiveness */
+  padding: 3vw; /* Adjusted padding for responsiveness */
+  border: 1px solid #f0610e80;
+  transition: transform 0.9s, box-shadow 0.9s;
+  border-radius: 10%;
+}
+
+.boxAboutServices:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 0 0 5px hsla(51, 98%, 51%, 0.938);
+  border: 1px solid #f0610e80;
+}
+
+.container101 {
+  display: flex;
+  justify-content: center;
+}
+
+.box101,
+.box102,
+.box103 {
+  width: 90%; /* Adjusted width for responsiveness */
+  max-width: 1200px;
+  height: auto; /* Allowing height to adjust based on content */
+  background-color: #90e0ef;
+  border-radius: 30px;
+  display: flex;
+}
+
+.transportbtn {
+  width: 130px;
+  height: auto; /* Allowing height to adjust based on content */
+  border-radius: 5px;
+  background-color:hsla(0, 0%, 100%, 0.600);
+  border: 1px solid whitesmoke;
+}
+
+.pServices{
+  font-size: 2vw; /* Adjusted font size for responsiveness */
+  font-weight: bold;
+}
+
+.AppService {
+  text-align: center;
+  margin-top: 5%; /* Adjusted margin for responsiveness */
+}
+
+.talkbox{
+  width: 90%; /* Adjusted width for responsiveness */
+  height: auto; /* Allowing height to adjust based on content */
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+
+.nav-ul-li{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 2%; /* Adjusted padding for responsiveness */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 5%; /* Adjusted margin for responsiveness */
+}
+
+.nav-ul-li li.active {
+  color: blue;
+  border-bottom: 2px solid blue;
+  margin-bottom: -2px;
+}
